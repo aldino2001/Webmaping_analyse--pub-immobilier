@@ -1,0 +1,99 @@
+ERROR - 2024-06-19 08:43:29 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-19 08:43:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+INFO - 2024-06-19 08:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 08:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 08:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 08:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-19 08:48:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`map_db`.`cartier`, CONSTRAINT `cartier_ibfk_2` FOREIGN KEY (`etat_id`) REFERENCES `cartier_etat` (`id_etat`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->createcartier('47.109074592590...', '-21.46323353299...', 'undefined', 'undefined', 'undefined', '2', 'undefined')
+#10 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#11 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#14 {main}
+CRITICAL - 2024-06-19 08:48:45 --> Cannot add or update a child row: a foreign key constraint fails (`map_db`.`cartier`, CONSTRAINT `cartier_ibfk_2` FOREIGN KEY (`etat_id`) REFERENCES `cartier_etat` (`id_etat`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cartier` (`cartier_lng`, `cartier_lat`, `cartier_describe`, `cartier_name`, `cartier_rayon`, `user_user_id`, `etat_id`) VALUES (:cartier_lng:, :cartier_lat:, :cartier_describe:, :cartier_name:, :cartier_rayon:, :user_user_id:, :etat_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\CartierController.php(27): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->createcartier('47.10907459259034', '-21.463233532999208', 'undefined', 'undefined', 'undefined', '2', 'undefined')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+INFO - 2024-06-19 08:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 16:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 17:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 18:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 18:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 18:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 18:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 18:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 18:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 18:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 19:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 20:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 21:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
