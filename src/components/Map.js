@@ -33,7 +33,7 @@ const Map = forwardRef(({ center, zoom }, ref) => {
       />
       <Marker position={center}>
         <Popup>
-          Une jolie popup CSS3. <br /> Facile à personnaliser.
+          Une jolie popup CSS3.5 <br /> Facile à personnaliser.
         </Popup>
       </Marker>
     </MapContainer>

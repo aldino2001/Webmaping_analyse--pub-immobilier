@@ -133,7 +133,7 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("ralobo");
   const { loginData } = useContext(LoginContext);
-  const [IsConnected, setIsConnected]=useState(false)
+  const [IsConnected, setIsConnected]=useState(false);
   const [cartierDetail,setCartierDetail] = useState([]);
   const [inputValue, setInputValue] = useState(false);
   const [isPolling, setIsPolling] = useState(true);
