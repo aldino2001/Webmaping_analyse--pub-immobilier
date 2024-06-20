@@ -88,35 +88,7 @@ const itemData = [
       title: 'Coffee',
     },
 ];
-const quartiers = [
-  {
-    name: 'Quartier 1',
-    coordinates: [
-      [51.51, -0.1],
-      [51.51, -0.12],
-      [51.53, -0.12],
-      [51.53, -0.1],
-    ],
-  },
-  {
-    name: 'Quartier 2',
-    coordinates: [
-      [51.49, -0.08],
-      [51.49, -0.1],
-      [51.51, -0.1],
-      [51.51, -0.08],
-    ],
-  },
-  {
-    name: 'Quartier 3',
-    coordinates: [
-      [51.52, -0.09],
-      [51.52, -0.11],
-      [51.54, -0.11],
-      [51.54, -0.09],
-    ],
-  },
-];
+
 
 const App = forwardRef(({center,zoom,isconnecteds},ref) => {
   const [isLeftBarOpen, setIsLeftBarOpen] = useState(false);
@@ -149,7 +121,6 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
     setIsCartierPolygone(!isCartierPolygone);
     setInputValue(!inputValue)
   };
-
   const handleMenuClick = () => {
     setIsPost(false)
     setIsLeftBarOpen(!isLeftBarOpen);
@@ -171,22 +142,7 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
     setIsLeftBarOpen(!isLeftBarOpen);
 
   };
-  const CircleLayer = ({ center, radius, steps }) => {
-    const circles = [];
-  
-    for (let i = 0; i < steps; i++) {
-      circles.push(
-        <Circle
-          center={center}
-          radius={radius * (i + 1)}
-          pathOptions={{ color: 'blue', opacity: 0.3 / (i + 1) }}
-          key={i}
-        />
-      );
-    }
-  
-    return <>{circles}</>;
-   };
+
   const handleSelectLocation = (latlng) => {
     //console.log('Coordonnées sélectionnées:', latlng);
     setSelectedLocation(latlng);
@@ -207,15 +163,15 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
     setIsRightcontentOpen(true);
     setCartierDetailId(polygons.cartId);
     setCartierContent(polygons);
-    console.log('cartier: ',polygons.describe);
+    //console.log('cartier: ',polygons.describe);
   }
   const getCartierdetail = async () =>{
     try{
       const cartier_result = await axios.get("http://localhost:8080/getcartier");
       //setCartierDetail(cartier_result.data);
-      console.log("cartiet",cartier_result.data);
+      //console.log("cartiet",cartier_result.data);
       const newpolygone = cartier_result.data.map((item)=>{
-            console.log("latitude:",item.cartier_lat);
+            //console.log("latitude:",item.cartier_lat);
             const point = turf.point([ Number(item.cartier_lng), Number(item.cartier_lat)]);
             const buffered = turf.buffer(point, item.cartier_rayon, { units: 'kilometers' }); // 0.5 km radius
             const polygonCoords = buffered.geometry.coordinates[0].map(coord => [coord[1], coord[0]]);
@@ -343,7 +299,9 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
           title="Carte Flottante"
           content="Ceci est une carte flottante."
           onClose={toggleFloatingCard}
-          coordone={[selectedLocation.lng,selectedLocation.lat]}
+          lng={selectedLocation.lng}
+          lat={selectedLocation.lat}
+          userId={loginData.user_id}
 
         />
 
@@ -354,7 +312,6 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
           lng={selectedLocation.lng}
           lat={selectedLocation.lat}
           user_id={loginData.user_id}
-
         />)
       }
       <ZoomControl position="bottomright" />
@@ -367,6 +324,4 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
     </div>
   );
 });
-
-
 export default App;

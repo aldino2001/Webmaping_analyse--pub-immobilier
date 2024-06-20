@@ -14,4 +14,19 @@ class Querylist extends Model
      $query = $this->db->query($query);
      return $query->getResultArray();
    }
+   public function get_end_postimage(){
+      $query = "select post_id from post order by post_id desc limit  1";
+      $query = $this->db->query($query);
+      return $query->getResultArray();
+   }
+   public function getpost(){
+    $query = "select * from post";
+    $query = $this->db->query($query);
+    return $query->getResultArray();
+   }
+   public function getImage($post_id){
+    $query = "select * from post_image where post_post_id=?";
+    $query = $this->db->query($query[$post_id]);
+    return $query->getResultArray();
+   }
 }

@@ -1,0 +1,777 @@
+INFO - 2024-06-20 18:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 19:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 19:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 19:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 19:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 20:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 21:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-20 21:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 21:20:27 --> Cannot call constructor
+in APPPATH\Controllers\UploadFile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\UploadFile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:22:40 --> Cannot call constructor
+in APPPATH\Controllers\UploadFile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\UploadFile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:24:25 --> Cannot call constructor
+in APPPATH\Controllers\UploadFile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\UploadFile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:26:25 --> Cannot call constructor
+in APPPATH\Controllers\UploadFile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\UploadFile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:27:47 --> Cannot call constructor
+in APPPATH\Controllers\UploadFile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\UploadFile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:28:54 --> Cannot call constructor
+in APPPATH\Controllers\UploadFile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\UploadFile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:29:27 --> Undefined property: App\Controllers\UploadFile::$load
+in APPPATH\Controllers\UploadFile.php on line 24.
+ 1 APPPATH\Controllers\UploadFile.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UploadFile::$load', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:29:50 --> Undefined property: App\Controllers\UploadFile::$load
+in APPPATH\Controllers\UploadFile.php on line 24.
+ 1 APPPATH\Controllers\UploadFile.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UploadFile::$load', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:32:31 --> Invalid file: "upload.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('upload', [], true)
+ 3 APPPATH\Controllers\UploadFile.php(28): view('upload', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:36:34 --> Undefined variable $files
+in APPPATH\Controllers\UploadFile.php on line 22.
+ 1 APPPATH\Controllers\UploadFile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:36:35 --> Undefined variable $files
+in APPPATH\Controllers\UploadFile.php on line 22.
+ 1 APPPATH\Controllers\UploadFile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:37:29 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:37:31 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:38:54 --> Undefined variable $files
+in APPPATH\Controllers\UploadFile.php on line 19.
+ 1 APPPATH\Controllers\UploadFile.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $files', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:39:52 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:43:14 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:43:16 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:44:13 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:44:15 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:44:16 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:45:28 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:45:35 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\UploadFile.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadFile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadFile')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadFile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:59:42 --> syntax error, unexpected token "}", expecting variable
+in APPPATH\Models\QueryList.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:59:47 --> syntax error, unexpected token "}", expecting "("
+in APPPATH\Models\QueryList.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:59:52 --> syntax error, unexpected token "}", expecting "("
+in APPPATH\Models\QueryList.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 21:59:57 --> syntax error, unexpected token "}", expecting ";" or "{"
+in APPPATH\Models\QueryList.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:12 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:17 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:22 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:27 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:32 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:37 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:42 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:47 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:52 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:00:57 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:02 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:07 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:12 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:17 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:22 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:27 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:32 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:47 --> syntax error, unexpected token "^"
+in APPPATH\Models\QueryList.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:52 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:01:57 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:02 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:07 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:12 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:17 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:22 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:27 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:32 --> syntax error, unexpected token "}"
+in APPPATH\Models\QueryList.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:37 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\QueryList.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:42 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\QueryList.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:47 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\QueryList.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:52 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\QueryList.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:02:57 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\QueryList.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:22:25 --> Undefined variable $title
+in APPPATH\Controllers\UploadFile.php on line 24.
+ 1 APPPATH\Controllers\UploadFile.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:22:47 --> Undefined variable $title
+in APPPATH\Controllers\UploadFile.php on line 24.
+ 1 APPPATH\Controllers\UploadFile.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:22:51 --> Undefined variable $title
+in APPPATH\Controllers\UploadFile.php on line 24.
+ 1 APPPATH\Controllers\UploadFile.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+INFO - 2024-06-20 22:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-20 22:38:36 --> Undefined variable $data
+in APPPATH\Controllers\UploadFile.php on line 32.
+ 1 APPPATH\Controllers\UploadFile.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-20 22:38:59 --> mysqli_sql_exception: Unknown column 'describe_post' in 'field list' in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\UploadFile.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+#10 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+#11 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#14 {main}
+CRITICAL - 2024-06-20 22:38:59 --> Unknown column 'describe_post' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`title_post`, `describe_post`) VALUES (:title_post:, :describe_post:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UploadFile.php(32): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-20 22:40:16 --> mysqli_sql_exception: Unknown column 'describe_post' in 'field list' in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\UploadFile.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+#10 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+#11 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#14 {main}
+CRITICAL - 2024-06-20 22:40:16 --> Unknown column 'describe_post' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`title_post`, `describe_post`, `post_lat`, `post_lng`) VALUES (:title_post:, :describe_post:, :post_lat:, :post_lng:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UploadFile.php(32): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-20 22:40:49 --> mysqli_sql_exception: Unknown column 'describe_post' in 'field list' in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\UploadFile.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+#10 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+#11 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#14 {main}
+CRITICAL - 2024-06-20 22:40:49 --> Unknown column 'describe_post' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`title_post`, `describe_post`, `post_lat`, `post_lng`, `user_user_id`) VALUES (:title_post:, :describe_post:, :post_lat:, :post_lng:, :user_user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UploadFile.php(32): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:43:51 --> Undefined variable $postData
+in APPPATH\Controllers\UploadFile.php on line 32.
+ 1 APPPATH\Controllers\UploadFile.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $postData', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 22:43:53 --> Undefined variable $postData
+in APPPATH\Controllers\UploadFile.php on line 32.
+ 1 APPPATH\Controllers\UploadFile.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $postData', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-20 22:49:03 --> mysqli_sql_exception: Unknown column 'describe_post' in 'field list' in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\UploadFile.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+#10 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+#11 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#14 {main}
+CRITICAL - 2024-06-20 22:49:03 --> Unknown column 'describe_post' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post` (`title_post`, `describe_post`, `post_lat`, `post_lng`, `user_user_id`) VALUES (:title_post:, :describe_post:, :post_lat:, :post_lng:, :user_user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UploadFile.php(32): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 23:00:32 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Controllers\UploadFile.php on line 34.
+ 1 APPPATH\Controllers\UploadFile.php(34): print_r('ssdfs post id', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 23:01:38 --> Undefined array key 1
+in APPPATH\Controllers\UploadFile.php on line 34.
+ 1 APPPATH\Controllers\UploadFile.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 23:01:54 --> Undefined array key "post_id"
+in APPPATH\Controllers\UploadFile.php on line 34.
+ 1 APPPATH\Controllers\UploadFile.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "post_id"', 'C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\UploadFile.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 23:06:35 --> Class "App\Controllers\ImaseModel" not found
+in APPPATH\Controllers\UploadFile.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 23:06:51 --> Class "App\Controllers\ImaseModel" not found
+in APPPATH\Controllers\UploadFile.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadFile->uploadImage()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadFile))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 23:20:20 --> syntax error, unexpected identifier "publi", expecting "function" or "const"
+in APPPATH\Models\QueryList.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Models\\QueryList.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\QueryList')
+ 3 APPPATH\Controllers\CartierController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\QueryList')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
