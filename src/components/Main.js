@@ -106,7 +106,7 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
   const [password, setpassword] = useState("ralobo");
   const { loginData } = useContext(LoginContext);
   const [IsConnected, setIsConnected]=useState(false);
-  const [cartierDetail,setCartierDetail] = useState([]);
+  const [PostDetail,setPostDetail] = useState([]);
   const [inputValue, setInputValue] = useState(false);
   const [isPolling, setIsPolling] = useState(true);
   const [isRightContentOpen,setIsRightcontentOpen]= useState(false);
@@ -184,11 +184,22 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
         console.error('Erreur lors de la récupération des cartiers:', error);
       }
 };
+  const getPostdetail = async () =>{
+    try {
+      const postresult = await axios.get("http://localhost:8080/getAllPostData");
+      setPostDetail(postresult.data);
+      console.log(PostDetail);
+    }catch(error){
+       console.error(error);
+    }
+
+  }
 
   useEffect(() => {
       if (isPolling) {
         const interval = setInterval(() => {
           getCartierdetail();
+          getPostdetail();
         }, 5000); // Intervalle de 5 secondes pour vérifier les nouvelles données
         // Nettoyage à la désinstallation du composant
         return () => clearInterval(interval);
@@ -250,11 +261,11 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
             </Popup>
           </Marker>
         )}
-        {data.map((item) => (
-          <Marker key={item.id} position={item.position} icon={customIcon}>
+        {PostDetail.map((item) => (
+          <Marker key={item.post_id} position={[item.lat,item.lng]} icon={customIcon}>
             <Popup>
               <div>
-                  <Rating precision={0.1} size="large"
+                  <Rating precision={0.5} size="large"
                     name="simple-controlled"
                     value={value}
                     onChange={(event, newValue) => {
@@ -262,12 +273,12 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
                     }}
                   />
                 <ImageList variant="masonry" cols={3} gap={8}>
-                  {itemData.map((item) => (
-                    <ImageListItem key={item.img}>
+                  {item["image"].map((items) => (
+                    <ImageListItem key={items.image_name}>
                       <img
-                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                        src={`${item.img}?w=248&fit=crop&auto=format`}
-                        alt={item.title}
+                        srcSet={`${'UploadFile/'.concat(items.image_name)}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                        src={`${'UploadFile/'.concat(items.image_name)}?w=248&fit=crop&auto=format`}
+                        //alt={item.title}
                         loading="lazy"
                       />
                     </ImageListItem>

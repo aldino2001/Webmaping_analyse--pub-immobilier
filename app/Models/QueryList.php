@@ -26,7 +26,7 @@ class Querylist extends Model
    }
    public function getImage($post_id){
     $query = "select * from post_image where post_post_id=?";
-    $query = $this->db->query($query[$post_id]);
+    $query = $this->db->query($query,[$post_id]);
     return $query->getResultArray();
    }
 }

@@ -775,3 +775,42 @@ in APPPATH\Models\QueryList.php on line 22.
  6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 23:35:20 --> syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+CRITICAL - 2024-06-20 23:50:44 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\PostController.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\raman\\react-geo\\immeuble-geo\\app\\Controllers\\PostController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PostController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PostController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\PostController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-20 23:50:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e' at line 1 in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(306): mysqli->query('e', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('e')
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('e')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(29): CodeIgniter\Database\BaseConnection->query('e')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(20): App\Models\Querylist->getImage('1')
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+CRITICAL - 2024-06-20 23:50:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\QueryList.php(29): CodeIgniter\Database\BaseConnection->query('e')
+ 2 APPPATH\Controllers\PostController.php(20): App\Models\Querylist->getImage('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
