@@ -17,6 +17,8 @@ import {logintest} from "./Login";
 import { LoginContext } from './LoginContext';
 import Login from './Login';
 import RightContent from './rightContent';
+import PostDetailDialog from './PostDetail';
+
 const ChangeView = ({zoom}) => {
   const map = useMap();
   map.setZoom(zoom);
@@ -41,53 +43,7 @@ const customIcon = new L.Icon({
   //shadowUrl: 'https://example.com/custom-icon-shadow.png', // URL de l'ombre de l'icône (facultatif)
   shadowSize: [41, 41], // Taille de l'ombre
 });
-const data = [
-  {
-    id: 1,
-    position: [-21.4435, 47.082],
-    image: 'logo192.png',
-    description: 'Maison à vendre',
-  },
-  {
-    id: 2,
-    position: [-21.4433, 47.0946],
-    image: 'logo512.png',
-    description: 'à vendre à Londres',
-  },
-  {
-    id: 3,
-    position: [53.343, -6.3],
-    image: 'https://example.com/image3.jpg',
-    description: ' vendre à Londres',
-  },
-];
 
-const itemData = [
-    {
-      img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
-      title: 'Bed',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
-      title: 'Books',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
-      title: 'Chairs',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
-      title: 'Laptop',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
-      title: 'Doors',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7',
-      title: 'Coffee',
-    },
-];
 
 
 const App = forwardRef(({center,zoom,isconnecteds},ref) => {
@@ -112,8 +68,14 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
   const [isRightContentOpen,setIsRightcontentOpen]= useState(false);
   const [cartiedelailId,setCartierDetailId] = useState();
   const [cartierContent,setCartierContent] =useState([]);
+  const [postOpen,setPostOpen] = useState(false);
   const container = window !== undefined ? () => window().document.body : undefined;
-
+  const handlePostOpen = ()=>{
+    setPostOpen(true);
+  }
+  const handlepostClose=()=>{
+    setPostOpen(false)
+  }
   const toggleFloatingCard = () => {
     setIsFloatingCardVisible(!isFloatingCardVisible);
   };
@@ -288,7 +250,7 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
               </div>
               <p>{item.description}</p>
               
-              <Link component="button"  sx={{ color: 'rgb(130,202,250)',left:1}} variant="body2"  color="inherit">
+              <Link component="button"  sx={{ color: 'rgb(130,202,250)',left:1}} variant="body2" onClick={handlePostOpen}  color="inherit">
                 détailles>>
               </Link>
             </Popup>
@@ -327,9 +289,13 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
       }
       <ZoomControl position="bottomright" />
       <RightContent 
-      open={isRightContentOpen}
-      content={cartierContent}
-      onClose={handleCloseRightContent}
+        open={isRightContentOpen}
+        content={cartierContent}
+        onClose={handleCloseRightContent}
+      />
+      <PostDetailDialog 
+        open={postOpen}
+        onClose={handlePostOpen}
       />
       </MapContainer>
     </div>
