@@ -94,10 +94,7 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
     console.log('Ouvrir le formulaire de publication');
     // Ajoutez ici la logique pour ouvrir le formulaire de publication
   };
-  const handlePost = ()=>{
-    setIsPost(true);
-    setIsLeftBarOpen(!isLeftBarOpen);
-  }
+
   const handleLocationSelect = () => {
     setCursorStyle(isSelectingLocation ? { cursor: 'crosshair' } : {});
     setIsSelectingLocation(!isSelectingLocation) 
