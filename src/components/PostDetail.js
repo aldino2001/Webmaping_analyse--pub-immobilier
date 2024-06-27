@@ -12,20 +12,16 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 import Switch from '@mui/material/Switch';
-
 export default function MaxWidthDialog({open,OnClose}) {
   //const [open, setOpen] = React.useState(false);
   const [fullWidth, setFullWidth] = React.useState(true);
   const [maxWidth, setMaxWidth] = React.useState('sm');
-
   const handleClickOpen = () => {
     //setOpen(true);
   };
-
   const handleClose = () => {
     //setOpen(false);
   };
-
   const handleMaxWidthChange = (event) => {
     setMaxWidth(
       // @ts-expect-error autofill of arbitrary value is not handled.
@@ -39,9 +35,7 @@ export default function MaxWidthDialog({open,OnClose}) {
 
   return (
     <React.Fragment>
-      <Button variant="outlined" onClick={handleClickOpen}>
-        Open max-width dialog
-      </Button>
+      
       <Dialog
         fullWidth={fullWidth}
         maxWidth={maxWidth}

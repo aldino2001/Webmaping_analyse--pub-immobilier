@@ -1,0 +1,713 @@
+ERROR - 2024-06-27 14:55:03 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:55:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:55:07 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:55:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:55:11 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:55:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:55:15 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:55:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:57:13 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:57:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:57:17 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:57:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:57:22 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:57:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:57:26 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:57:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:57:30 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:57:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:57:34 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:57:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:57:38 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:57:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 14:57:42 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 14:57:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 15:01:32 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 15:01:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 15:01:37 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 15:01:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 15:01:41 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 15:01:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 15:01:45 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 15:01:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 15:01:49 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 15:01:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(14): CodeIgniter\Database\BaseConnection->query('select * from cartier,cartier_etat where cartier.etat_id=cartier_etat.id_etat')
+ 3 APPPATH\Controllers\CartierController.php(31): App\Models\Querylist->get_cartier()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CartierController->getcartierResult()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartierController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+ERROR - 2024-06-27 15:01:53 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\app\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#9 {main}
+CRITICAL - 2024-06-27 15:01:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\QueryList.php(24): CodeIgniter\Database\BaseConnection->query('select * from post')
+ 3 APPPATH\Controllers\PostController.php(16): App\Models\Querylist->getpost()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')
+INFO - 2024-06-27 15:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-27 15:02:04 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'map_db', 3306, '', 0)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\AuthController.php(16): CodeIgniter\BaseModel->first()
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\AuthController->login('piera@gmail.com', 'piera2001')
+#8 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\raman\react-geo\immeuble-geo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\raman\react-geo\immeuble-geo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\raman\react-geo\immeuble-geo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\raman\react-geo\immeuble-geo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\Users\raman\react-geo\immeuble-geo\app\Controllers\AuthController.php(16): CodeIgniter\BaseModel->first()
+#6 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(942): App\Controllers\AuthController->login('piera@gmail.com', 'piera2001')
+#7 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\raman\react-geo\immeuble-geo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\raman\react-geo\immeuble-geo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\raman\react-geo\immeuble-geo\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\...')
+#11 {main}
+CRITICAL - 2024-06-27 15:02:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user_email` = :user_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(16): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->login('piera@gmail.com', 'piera2001')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\raman\\react-geo\\immeuble-geo\\public\\index.php')

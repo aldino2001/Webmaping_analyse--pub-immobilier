@@ -155,15 +155,11 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
   }
 
   useEffect(() => {
-      if (isPolling) {
-        const interval = setInterval(() => {
           getCartierdetail();
           getPostdetail();
-        }, 5000); // Intervalle de 5 secondes pour vérifier les nouvelles données
+       // Intervalle de 5 secondes pour vérifier les nouvelles données
         // Nettoyage à la désinstallation du composant
-        return () => clearInterval(interval);
-      }
-      }, [isPolling]); // isPolling est la dépendance
+      }, []); // isPolling est la dépendance
 
   return (
     <div>
@@ -172,7 +168,6 @@ const App = forwardRef(({center,zoom,isconnecteds},ref) => {
         <MenuIcon />
       </IconButton>)}
       <Drawer anchor="left" open={isLeftBarOpen} onClose={() => setIsLeftBarOpen(false)}>
-       
       <List >
         {loginData&&!isPost &&
         (
