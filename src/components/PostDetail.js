@@ -35,7 +35,6 @@ export default function MaxWidthDialog({open,OnClose}) {
 
   return (
     <React.Fragment>
-      
       <Dialog
         fullWidth={fullWidth}
         maxWidth={maxWidth}
